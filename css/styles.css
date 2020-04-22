@@ -260,7 +260,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    background: url(../img/bg_img.png) center 700px no-repeat, linear-gradient(180deg, #7D68AB 0%, #7D68AB 100%);
+    background: url(../img/bg_img-min.png) center 700px no-repeat, linear-gradient(180deg, #7D68AB 0%, #7D68AB 100%);
     background-size: cover;
 }
 
@@ -1017,6 +1017,10 @@ footer {
 
 .social-auth {
     margin: 0 14px;
+    border: none;
+    background: none;
+    line-height: 1;
+    padding: 0;
 }
 
 .close-popup {
