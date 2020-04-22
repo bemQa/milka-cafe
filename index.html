@@ -62,7 +62,7 @@
 							<a href="#!" class="mini-btn pop-op" data-popup="product3">Узнать больше</a>
 						</div>
 					</div>
-					<a href="#!" class="main-coupon pop-op" data-popup="auth"></a>
+					<a href="#coupon-block" class="main-coupon anchor"></a>
 				</div>
 			</section>
 			<section id="where-block" class="where-block">
@@ -136,17 +136,32 @@
 						</div>
 					</div>
 					<div class="coupon-count-block">
-						<div class="coupon-count-text">Осталось купонов</div>
-						<div class="coupon-count">
-							<div class="number">9</div>
-							<div class="number">8</div>
-							<div class="number">7</div>
-							<div class="number">6</div>
-							<div class="number">5</div>
+						<div class="coupon-count-wrapper coupons-5ka">
+							<div class="coupon-count-text">Осталось купонов</div>
+							<div class="coupon-count">
+								<div class="number">9</div>
+								<div class="number">8</div>
+								<div class="number">7</div>
+								<div class="number">6</div>
+								<div class="number">5</div>
+							</div>
+							<div class="btn-wrapper">
+								<a href="#!" class="coupon-btn pop-op" data-popup="auth"><img src="img/5ka-button-coupon.png" alt=""></a><!-- get-coupon-5ka -->
+							</div>
 						</div>
-					</div>
-					<div class="btn-wrapper">
-						<a href="#!" class="coupon-btn pop-op" data-popup="get-coupon"><img src="img/button-coupon.png" alt=""></a>
+						<div class="coupon-count-wrapper coupons-perekrestok">
+							<div class="coupon-count-text">Осталось купонов</div>
+							<div class="coupon-count">
+								<div class="number">9</div>
+								<div class="number">8</div>
+								<div class="number">7</div>
+								<div class="number">6</div>
+								<div class="number">5</div>
+							</div>
+							<div class="btn-wrapper">
+								<a href="#!" class="coupon-btn pop-op" data-popup="get-coupon-perekrestok"><img src="img/perekrestok-button-coupon.png" alt=""></a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -219,22 +234,84 @@
 						<button class="social-auth">
 							<img src="img/vk-auth.svg" alt="">
 						</button>
-						<button class="social-auth">
+						<!-- <button class="social-auth">
 							<img src="img/ok-auth.svg" alt="">
-						</button>
+						</button> -->
 						<button class="social-auth">
 							<img src="img/fb-auth.svg" alt="">
 						</button>
+					</form>
+					<div class="separate">
+						<span>или</span>
+					</div>
+					<div class="popup-btn-wrap">
+						<a href="#!" class="popup-btn pop-op" data-popup="auth-fio">Войти через e-mail</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div id="get-coupon" class="popup popup-coupon">
+		<div id="auth-fio" class="popup popup-auth-fio">
 			<div class="popup__wrap">
 				<a href="#!" class="close-popup js-close-popup">
 		            <img src="img/close-purple.svg" alt="">
 		        </a>
 				<div class="popup__inner">
+					<div class="popup__desc">Введите ваши данные</div>
+					<form class="popup-form">
+						<div class="input-field">
+                    		<input type="text" name="name" placeholder="Фамилия Имя" required>
+                    	</div>
+						<div class="input-field">
+                    		<input type="text" name="email" placeholder="E-mail" required>
+                    	</div>
+						<div class="popup-btn-wrap">
+							<!-- <button class="popup-btn">Получить купон</button> -->
+							<button class="popup-btn pop-op" data-popup="auth-success">Получить купон</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="auth-success" class="popup popup-auth popup-auth-success">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup">
+		            <img src="img/close-purple.svg" alt="">
+		        </a>
+				<div class="popup__inner">
+					<div class="popup__title">Спасибо!</div>
+					<div class="popup__desc">Мы отправили вам ссылку для получения купона на скидку на указанный вами e-mail</div>
+					<div class="popup-btn-wrap">
+						<a href="#!" class="popup-btn js-close-popup">Отлично</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="get-coupon-5ka" class="popup popup-coupon">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup">
+		            <img src="img/close-purple.svg" alt="">
+		        </a>
+				<div class="popup__inner">
+					<div class="popup-logo">
+						<img src="img/5ka-logo.svg" alt="">
+					</div>
+					<div class="popup__title">Ваш купон на скидку</div>
+					<div class="popup-coupon-img">
+						<img src="img/barcode.png" alt="">
+					</div>
+					<div class="popup__desc">Предъявите скриншот купона кассиру в «Пятёрочке» при покупке новинок от Milka</div>
+				</div>
+			</div>
+		</div>
+		<div id="get-coupon-perekrestok" class="popup popup-coupon">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup">
+		            <img src="img/close-purple.svg" alt="">
+		        </a>
+				<div class="popup__inner">
+					<div class="popup-logo">
+						<img src="img/perekrestok-logo.svg" alt="">
+					</div>
 					<div class="popup__title">Ваш купон на скидку</div>
 					<div class="popup-coupon-img">
 						<img src="img/barcode.png" alt="">
