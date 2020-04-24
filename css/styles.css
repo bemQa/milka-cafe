@@ -1089,6 +1089,11 @@ footer {
     margin: 0 auto 25px;
 }
 
+#get-coupon-5ka .popup-logo {
+    max-width: 135px;
+    width: 100%;
+}
+
 .separate {
     position: relative;
     font-size: 21px;
@@ -1656,7 +1661,7 @@ footer {
 
     .popup-coupon .popup__title {
         width: 126px;
-        margin: 0 auto 30px;
+        margin: 0 auto 20px;
     }
 
     .popup__desc {
@@ -1743,6 +1748,10 @@ footer {
 
     .input-field + .popup-btn-wrap {
         margin-top: 20px;
+    }
+
+    .popup-logo {
+        margin: 0 auto 15px;
     }
 }
 
