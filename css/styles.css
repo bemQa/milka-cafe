@@ -476,11 +476,11 @@ footer {
 }
 
 .product {
-    margin: 0 15px;
+    margin: 0 25px;
 }
 
 .product:nth-child(2) {
-    margin: 0 15px 0 75px;
+    margin: 0 25px 0 40px;
 }
 
 .product-img {
@@ -501,7 +501,7 @@ footer {
 }
 
 .product3-img {
-    max-width: 325px;
+    max-width: 266px;
 }
 
 .product-info {
@@ -1074,8 +1074,7 @@ footer {
 }
 
 .popup-product3-img {
-    width: 406px;
-    left: 0;
+    width: 325px;
 }
 
 .popup-coupon-img {
@@ -1203,7 +1202,7 @@ footer {
     }
 
     .product3-img {
-        max-width: calc(325px - 15%);
+        max-width: calc(266px - 15%);
     }
 
     .main-coupon {
@@ -1368,7 +1367,7 @@ footer {
 
     .product3-img {
         max-width: 100%;
-        width: 141px;
+        width: 118px;
     }
 
     .product-info {
@@ -1708,7 +1707,7 @@ footer {
     }
 
     .popup-product3-img {
-        width: 241px;
+        width: 195px;
         top: -170px;
         left: 0;
         right: 0;
