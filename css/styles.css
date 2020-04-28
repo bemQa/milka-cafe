@@ -1083,12 +1083,16 @@ footer {
     margin: 0 auto 25px;
 }
 
+.coupon-5ka {
+    max-width: 220px;
+}
+
 .popup-logo {
     text-align: center;
     margin: 0 auto 25px;
 }
 
-#get-coupon-5ka .popup-logo {
+.popup-logo.logo-5ka {
     max-width: 135px;
     width: 100%;
 }
