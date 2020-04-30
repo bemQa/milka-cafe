@@ -769,6 +769,10 @@ footer {
     justify-content: space-between;
 }
 
+.coupon-count-wrapper {
+    margin: auto;
+}
+
 .coupon-count-text {
     font-size: 21px;
     line-height: 1;
