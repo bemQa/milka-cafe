@@ -970,6 +970,15 @@ footer {
     background-size: 358px 370px;
 }
 
+.popup-coupon-perekrestok {
+    padding-top: 10%;
+}
+
+.popup-coupon-perekrestok .popup__wrap {
+    height: 570px;
+    background-size: 358px 570px;
+}
+
 .popup-product .popup__wrap {
     height: 363px;
     background: url(../img/products-popup-bg.png) center no-repeat;
@@ -1235,6 +1244,44 @@ footer {
 
 .coupon-preview .input-field + .popup-btn-wrap {
     margin-top: 25px;
+}
+
+.coupon-validity {
+    max-width: 275px;
+    width: 100%;
+    margin: 18px auto 10px;
+    padding: 13px 0 16px;
+    border-top: 1px solid rgba(79, 55, 141, 0.1);
+    border-bottom: 1px solid rgba(79, 55, 141, 0.1);
+}
+
+.coupon-validity-title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #4F378D;
+}
+
+.coupon-validity-text {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #272727;
+}
+
+.coupon-remark {
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #575757;
+}
+
+.coupon-remark a {
+    color: #366AB8;
 }
 
 @media (max-width: 1440px) {
@@ -1697,6 +1744,11 @@ footer {
         background-size: 279px 360px;
     }
 
+    .popup-coupon-perekrestok .popup__wrap {
+        height: 600px;
+        background-size: 279px 599px;
+    }
+
     .popup-product .popup__wrap {
         width: 279px;
         height: 295px;
@@ -1854,6 +1906,17 @@ footer {
         height: 60px;
         font-size: 21px;
         line-height: 60px;
+    }
+
+    .coupon-validity {
+        max-width: 250px;
+        margin: 15px auto 10px;
+        padding: 10px 0;
+    }
+
+    .coupon-remark {
+        max-width: 240px;
+        line-height: 16px;
     }
 }
 
