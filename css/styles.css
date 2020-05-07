@@ -948,16 +948,16 @@ footer {
 
 .popup-auth .popup__wrap {
     max-width: 448px;
-    height: 452px;
+    height: 520px;
     background: url(../img/auth-popup-bg.png) center no-repeat;
-    background-size: 448px 452px;
+    background-size: 448px 520px;
 }
 
 .popup-auth-fio .popup__wrap {
     max-width: 448px;
-    height: 398px;
+    height: 420px;
     background: url(../img/auth-popup-bg.png) center no-repeat;
-    background-size: 448px 398px;
+    background-size: 448px 420px;
 }
 
 .popup-auth-success .popup__wrap {
@@ -1286,6 +1286,79 @@ footer {
 
 .coupon-remark a {
     color: #366AB8;
+}
+
+.checkbox-wrapper {
+    margin-top: 30px;
+}
+
+.checkbox-field {
+    position: relative;
+    text-align: left;
+    max-width: 300px;
+    height: auto;
+}
+
+.checkbox {
+    padding-left: 40px;
+    display: inline-block;
+    min-height: 24px;
+}
+
+.checkbox input {
+    -webkit-appearance: none;
+    padding: 0;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+}
+
+.checkmark {
+    position: absolute;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid #7D69AC;
+}
+
+.checkbox input:checked + .checkmark::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: #7D69AC;
+    border-radius: 2px;
+}
+
+.checkbox-text {
+    font-size: 14px;
+    line-height: 1;
+    color: #272727;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.rules-link {
+    color: #4F378D;
+}
+
+.input-field input.error[type="checkbox"] ~ .checkbox-text {
+    color: #D01319;
+}
+
+.checkbox span.error {
+    top: 0;
+    right: -20px;
 }
 
 @media (max-width: 1440px) {
@@ -1725,15 +1798,17 @@ footer {
 
     .popup-auth .popup__wrap {
         max-width: 279px;
-        height: 300px;
-        background-size: 279px 300px;
+        height: 410px;
+        background: url(../img/coupon-popup-bg-height.png) center no-repeat;
+        background-size: 279px 410px;
         padding: 0 20px;
     }
 
     .popup-auth-fio .popup__wrap {
         max-width: 279px;
-        height: 255px;
-        background-size: 279px 255px;
+        height: 315px;
+        background: url(../img/coupon-popup-bg-height.png) center no-repeat;
+        background-size: 279px 315px;
         padding: 0 20px;
     }
 
