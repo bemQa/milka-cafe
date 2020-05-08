@@ -773,6 +773,19 @@ footer {
     margin: auto;
 }
 
+.coupon-count-wrapper.disabled {
+    pointer-events: none;
+}
+
+.coupon-count-wrapper.disabled .coupon-count-text,
+.coupon-count-wrapper.disabled .coupon-count {
+    filter: brightness(0.7);
+}
+
+.coupon-count-wrapper.disabled .btn-wrapper {
+    filter: grayscale(1) brightness(0.9);
+}
+
 .coupon-count-text {
     font-size: 21px;
     line-height: 1;
