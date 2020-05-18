@@ -660,7 +660,7 @@ footer {
 .steps {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .step-img {
@@ -670,7 +670,7 @@ footer {
     justify-content: center;
     width: 100%;
     min-height: 194px;
-    margin: 0 auto 40px;
+    margin: 0 auto 20px;
 }
 
 .step-img1 {
@@ -735,6 +735,12 @@ footer {
     max-width: 235px;
     width: 100%;
     margin: auto;
+}
+
+.edadil-remark {
+    display: block;
+    font-size: 21px;
+    margin-top: 10px;
 }
 
 .coupon-block {
@@ -1742,6 +1748,12 @@ footer {
 
     .edadil-btn {
         max-width: 200px;
+    }
+
+    .edadil-remark {
+        font-size: 16px;
+        max-width: 280px;
+        margin: 10px auto 0;
     }
 
     .coupon-block .container {
