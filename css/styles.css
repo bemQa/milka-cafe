@@ -891,7 +891,11 @@ footer {
 
 .faq-title {
     position: relative;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
     width: 606px;
+    max-height: 94px;
     padding: 30px 40px 30px 40px;
     background: url(../img/dropdown.png) center no-repeat;
     background-size: cover;
@@ -1827,9 +1831,9 @@ footer {
     .faq-title {
         width: 288px;
         padding: 13px 20px 15px 20px;
-        background-size: contain;
+        background-size: 100% 100%;
         font-size: 14px;
-        line-height: 18px;
+        line-height: 16px;
     }
 
     .faq-title::after {
