@@ -1078,11 +1078,11 @@ footer {
     background-size: 358px 370px;
 }
 
-.popup-coupon-perekrestok {
+.popup-coupon-big {
     padding-top: 10%;
 }
 
-.popup-coupon-perekrestok .popup__wrap {
+.popup-coupon-big .popup__wrap {
     height: 570px;
     background-size: 358px 570px;
 }
@@ -2017,7 +2017,7 @@ footer {
         background-size: 279px 360px;
     }
 
-    .popup-coupon-perekrestok .popup__wrap {
+    .popup-coupon-big .popup__wrap {
         height: 600px;
         background-size: 279px 599px;
     }
