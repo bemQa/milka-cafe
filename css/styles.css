@@ -1514,6 +1514,31 @@ footer {
     margin-bottom: 20px;
 }
 
+.new-action {
+    padding-top: 5%;
+}
+
+.new-action .popup__wrap {
+    background: none;
+    max-width: 510px;
+}
+
+.new-action .popup__inner {
+    position: relative;
+    max-width: 414px;
+    width: 100%;
+    height: 634px;
+    background: url(../img/new-popup.png) center no-repeat;
+    background-size: contain;
+}
+
+.new-action .popup-btn-wrap {
+    position: absolute;
+    top: 540px;
+    left: 0;
+    right: 0;
+}
+
 @media (max-width: 1440px) {
     header,
     .main-block::before,
@@ -2230,6 +2255,24 @@ footer {
 @media (max-width: 580px) {
     header {
         background-size: cover;
+    }
+
+    .new-action .popup__wrap {
+        max-width: 320px;
+    }
+
+    .new-action .popup__inner {
+        max-width: 310px;
+        height: 475px;
+    }
+
+    .new-action .popup-btn-wrap {
+        top: 412px;
+    }
+
+    .new-action .close-popup {
+        top: 0;
+        right: 0;
     }
 }
 
